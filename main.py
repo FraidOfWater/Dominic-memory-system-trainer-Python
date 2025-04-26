@@ -1,7 +1,21 @@
 import random
 
 table = "OABCDESGHN"
+table1 = "0123456789"
 encode = []
+
+nn = input("Tryout:")
+if nn.capitalize() == "Y":
+    while True:
+        encode = list(input())
+        encode = [x.capitalize() for x in encode]
+        encode1 = ""
+        for x in range(len(encode)):
+            encode1 += str(table.find(encode[x]))
+        if encode1.find("-1") == -1:
+            print(encode1)
+        else: print("Incorrect encoding")
+
 
 n = input("Zeros:")
 c1 = input("Reveal y/n:").capitalize()
