@@ -8,6 +8,7 @@ So the number 159473 would become AENDGC, which you can memorize further by usin
 # Guide
 The program asks you the number of digits you want to train with. If left empty or the format is invalid, it defaults to 6.
 It also asks whether to reveal the digits immediately and whether to reverse the order.
+It also asks to "tryout": which is used to write an encoded message, from which the program decodes the numbers. Use it for https://humanbenchmark.com/tests/number-memory for example.
 Press enter to go forwards in the program, get a new number/code, etc.
 
 ![image](https://github.com/user-attachments/assets/d32bb097-1a1b-473e-97cf-61f57a30ac0b)
